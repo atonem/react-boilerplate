@@ -26,6 +26,5 @@ typings/
 # dotenv environment variables file
 .env
 
-# Dist directory, but keep index.html
+# Dist directory
 dist/*
-!dist/index.html
