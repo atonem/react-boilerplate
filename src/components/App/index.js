@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import styles from './styles.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends Component {
   render() {
-    return <h1>project_title</h1>;
+    // console.log('styles', styles);
+    return <h1 className={styles.test}>project_title</h1>;
   }
 }
 
